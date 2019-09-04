@@ -25,18 +25,20 @@
       <h1 aria-label="Restaurant Reviews" class="main-title"><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb">
-      <li aria-label="Home">
-        <a href="/">Home</a>
-      </li>
-    </ul>
+    <nav id="breadcrumb" aria-label="Breadcrumb" role="navigation">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+      </ul>
+  </nav>
   </header>
 
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Map -->
-    <section id="map-container" role="map">
-      <div aria-label="Map of the restaurant location" id="map"></div>
+    <section id="map-container" >
+      <div id="map" aria-label="location" role="application" ></div>
     </section>
 
     <!-- Beginning restaurant -->
